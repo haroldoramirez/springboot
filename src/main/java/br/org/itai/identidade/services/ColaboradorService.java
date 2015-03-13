@@ -1,14 +1,20 @@
 package br.org.itai.identidade.services;
 
 import br.org.itai.identidade.models.Colaborador;
-import org.springframework.data.domain.Page;
+import br.org.itai.identidade.repositories.ColaboradorRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
-public interface ColaboradorService {
+@Service
+public class ColaboradorService {
 
-    List<Colaborador> buscaTodos();
+    @Autowired
+    ColaboradorRepository colaboradorRepository;
 
-    Page<Colaborador> buscaColaboradorPageable(Pageable pageable);
+    public List<Colaborador> lista() {
+        return colaboradorRepository.findAll();
+    }
+
 }

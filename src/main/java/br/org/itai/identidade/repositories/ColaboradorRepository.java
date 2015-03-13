@@ -9,6 +9,4 @@ import java.util.List;
 
 public interface ColaboradorRepository extends JpaRepository<Colaborador, Long> {
 
-    List<Colaborador> buscaTodos();
-    Page<Colaborador> buscaPageable(Pageable pageable);
 }
