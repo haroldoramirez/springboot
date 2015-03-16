@@ -21,10 +21,15 @@ public class Colaborador implements Serializable {
     @Column(nullable = false)
     private String pais;
 
+    public Colaborador() {}
+
     public Colaborador(String nome, String pais) {
-        super();
         this.nome = nome;
         this.pais = pais;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getNome() {
