@@ -1,5 +1,8 @@
 package br.org.itai.identidade.models;
 
+import com.wordnik.swagger.annotations.ApiModel;
+import com.wordnik.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +10,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
+@ApiModel(value = "Colaborador", description = "Representação do Colaborador")
 public class Colaborador implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -15,9 +19,11 @@ public class Colaborador implements Serializable {
     @GeneratedValue
     private Long id;
 
+    @ApiModelProperty(value = "Nome do Colaborador", required = true)
     @Column(nullable = false)
     private String nome;
 
+    @ApiModelProperty(value = "Pais de Origem", required = true)
     @Column(nullable = false)
     private String pais;
 

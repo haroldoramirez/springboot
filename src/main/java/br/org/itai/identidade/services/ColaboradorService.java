@@ -13,30 +13,29 @@ public class ColaboradorService {
     @Autowired
     ColaboradorRepository colaboradorRepository;
 
-    //lista todos os colaboradores
+    //lista todos
     public List<Colaborador> lista() {
         return this.colaboradorRepository.findAll();
     }
 
-    //salva colaborador
+    //salva
     public Colaborador inserir(Colaborador colaborador) {
         return this.colaboradorRepository.save(colaborador);
     }
 
-    //busca pelo id do colaborador
+    //busca pelo id
     public Colaborador buscaPorId(Long id) {
         return this.colaboradorRepository.findOne(id);
     }
 
-    //remove o colaborador
+    //remove
     public void delete(Long id) {
         Colaborador colaborador = this.colaboradorRepository.findOne(id);
         this.colaboradorRepository.delete(colaborador);
     }
 
-    //edita colaborador
+    //edita
     public Colaborador editar(Colaborador colaborador) {
-        //Colaborador colaborador = this.colaboradorRepository.findOne(id);
         return this.colaboradorRepository.save(colaborador);
     }
 
