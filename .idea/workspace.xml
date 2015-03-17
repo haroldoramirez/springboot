@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66335bc6-ff3b-42fe-bcbe-ea4457c6c820" name="Default" comment="criado servicos de colaborador, partindo para incluir o swagger">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mangofactory_swagger_models_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mangofactory_swagger_springmvc_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_wordnik_swagger_annotations_1_3_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ajar_swagger_spring_mvc_ui_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ajar_swagger_spring_mvc_ui_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/SwaggerConfig.java" />
+    <list default="true" id="66335bc6-ff3b-42fe-bcbe-ea4457c6c820" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/org/itai/identidade/Application.class" afterPath="$PROJECT_DIR$/target/classes/br/org/itai/identidade/Application.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/org/itai/identidade/models/Colaborador.class" afterPath="$PROJECT_DIR$/target/classes/br/org/itai/identidade/models/Colaborador.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/org/itai/identidade/controllers/ColaboradorController.class" afterPath="$PROJECT_DIR$/target/classes/br/org/itai/identidade/controllers/ColaboradorController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/Application.java" afterPath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/models/Colaborador.java" afterPath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/models/Colaborador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/controllers/ColaboradorController.java" afterPath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/controllers/ColaboradorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/services/ColaboradorService.java" afterPath="$PROJECT_DIR$/src/main/java/br/org/itai/identidade/services/ColaboradorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot.iml" afterPath="$PROJECT_DIR$/springboot.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="springboot.iws" />
@@ -753,7 +737,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426516397736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="swagger funcionando completo">
+      <created>1426619158739</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1426619158739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -789,7 +779,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39727584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22876558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,7 +813,8 @@
     </option>
     <MESSAGE value="feito a primeira funcao de listar os colaboradores" />
     <MESSAGE value="criado servicos de colaborador, partindo para incluir o swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado servicos de colaborador, partindo para incluir o swagger" />
+    <MESSAGE value="swagger funcionando completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger funcionando completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
